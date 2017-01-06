@@ -1,0 +1,77 @@
+.sidebar ul {
+  list-style: none;
+  color: blue;
+  text-decoration: underline;
+}
+
+.jumbotron-left {
+  float: left;
+}
+
+.jumbotron-right {
+  float: right;
+}
+
+.jumbotron-right ul {
+  columns: 3;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.col-xs-7>.panel-default>.panel-heading {
+  background-color: #cef2e0;
+}
+
+.col-xs-7>.panel-default>.panel-body {
+  background-color: #f5fffa;
+}
+
+.col-xs-5>.panel-default>.panel-heading {
+  background-color: #cedff2;
+}
+
+.col-xs-5>.panel-default>.panel-body {
+  background-color: #f5faff;
+}
+
+.panel-links {
+  text-align: right;
+}
+
+.panel-links li, .panel-links p {
+  float: right;
+  margin-left: 3%;
+}
+
+.panel-links ul li:last-child {
+  list-style: none;
+}
+
+.body-image {
+  float: right;
+}
+
+#featured-picture p {
+  padding-top: 10%;
+}
+
+#cheese {
+  float: left;
+  margin-right: 2%;
+}
+
+.sisters img {
+  float: left;
+}
+
+blockquote footer img {
+  float: right;
+}
+
+blockquote li {
+  display: inline;
+  list-style: none;
+  padding-right: 1%;
+}
