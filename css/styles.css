@@ -1,3 +1,14 @@
+body {
+  background-color: #f6f6f6;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0);
+}
+.col-xs-10 {
+  background-color: white;
+}
+
 .sidebar ul {
   list-style: none;
   color: blue;
@@ -53,17 +64,33 @@ h2 {
   float: right;
 }
 
-#featured-picture p {
-  padding-top: 10%;
+.featured-picture>.panel-heading {
+  background-color: #ddcef2;
 }
 
-#cheese {
+.featured-picture>.panel-body {
+  background-color: #faf5ff;
+}
+
+.featured-picture div p {
+  padding-top: 10%
+}
+
+.featured-picture img:first-child {
   float: left;
   margin-right: 2%;
 }
 
+
+
 .sisters img {
   float: left;
+}
+
+blockquote {
+  background-color: #f6f6f6;
+  padding: 0px 0px 50px 0px;
+  margin: 0px -20px;
 }
 
 blockquote footer img {
